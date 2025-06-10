@@ -77,6 +77,7 @@ def main():
     </string-array>
 </resources>
 '''
+    os.makedirs("res/values")
     with open("res/values/strings.xml","w") as o:
         o.write(xml)
 
