@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="35" android:compileSdkVersionCodename="15" package="jp.project2by2.certifiedkeybox.overlay" platformBuildVersionCode="35" platformBuildVersionName="15">
+    <application android:extractNativeLibs="true" android:hasCode="false"/>
+    <overlay android:targetPackage="android"/>
+</manifest>

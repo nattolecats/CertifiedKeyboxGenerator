@@ -1,2 +1,4 @@
 keybox.xml
-res/values/strings.xml
+CertifiedKeyboxOverlay/res/values/arrays.xml
+CertifiedKeyboxOverlay/build
+CertifiedKeyboxOverlay/dist
