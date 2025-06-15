@@ -77,7 +77,8 @@ def main():
     </string-array>
 </resources>
 '''
-    with open("CertifiedKeyboxOverlay/res/values/arrays.xml","w") as o:
+    os.makedirs("res/values", exist_ok=True)
+    with open("res/values/strings.xml","w") as o:
         o.write(xml)
 
 if __name__ == "__main__":
